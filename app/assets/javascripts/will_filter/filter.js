@@ -189,7 +189,7 @@ Wf.Filter.prototype = {
     });
 	},
 	submit: function() {
-    if (this.original_form_action != "") 
+    if (this.original_form_action != "" && this.original_form_action != null) 
         Wf.element('wf_form').action = this.original_form_action;
 		
     Wf.element('wf_submitted').value = 'true';

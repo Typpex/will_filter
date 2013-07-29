@@ -1,11 +1,11 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-# Maintain your gem's version:
+  # Maintain your gem's version:
 require "will_filter/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "will_filter"
+  s.name        = "test_will_filter"
   s.version     = WillFilter::VERSION
   s.authors     = ["Michael Berkovich"]
   s.email       = ["theiceberk@gmail.com"]
